@@ -1,42 +1,16 @@
 # FinancesApp
 
-Проект для МФПУ Синергия в рамках освоения курса основ программирования на Java.
+A project developed for Moscow Financial and Industrial University "Synergy" [web:2] as part of the *Fundamentals of Programming in Java* course.
 
-## Описание
+## Description
 
-Консольное приложение для учета финансовых транзакций, разработанное на языке Java.
+A console-based application for managing financial transactions, built in Java.
 
-## Функциональность
+## Features
 
-- Добавление финансовых транзакций
-- Просмотр всех транзакций
-- Расчет общей суммы транзакций
-- Поиск транзакций по категории
-- Удаление транзакций
-- Автоматическое сохранение данных в CSV файл
-
-## Требования
-
-- Java 8 или выше
-
-## Компиляция и запуск
-
-```bash
-# Компиляция
-javac -d bin -encoding UTF-8 src/main/java/financesapp/**/*.java src/main/java/financesapp/*.java
-
-# Запуск
-java -cp bin main.java.financesapp.Main
-```
-
-## Структура проекта
-
-```
-src/main/java/financesapp/
-├── Main.java
-├── model/
-├── service/
-├── repository/
-├── ui/
-└── exception/
-```
+- Add new financial transactions
+- View all transactions
+- Calculate the total sum of transactions
+- Search transactions by category
+- Delete transactions
+- Automatically save data to a CSV file
